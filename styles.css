@@ -1,37 +1,74 @@
-/* Внешняя таблица стилей для всего документа */
-html {
-    padding-top: 25px;
-    background-image: url('images/bg_page.png'); /* Укажите путь к фоновому изображению */
-    background-color: #F4F4F9;
-}
-
+/* Основные стили для body */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #FFFFFF;
-    margin: 0;
-    padding: 0 20px;
-}
-
-/* Выравнивание всех h1 заголовков */
-h1 {
-    font-family: 'Arial', sans-serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Параграф с внешними стилями */
-p {
-    margin-bottom: 20px;
-}
-
-/* Внешний стиль для кнопки, перекрывающий встроенные */
-button {
-    border-radius: 8px;
-    transition: background-color 0.3s ease;
-}
-
-/* Стили для адреса */
-address {
-    margin-top: 50px;
-    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Селектор по тегу: стили для заголовков h1 и h2 */
+h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+h2 {
+    color: #343a40;
+}
+
+/* Селектор по классу */
+.text {
+    color: #6c757d;
+}
+
+/* Селектор по id */
+#special-text {
+    color: #dc3545;
+    font-style: italic;
+}
+
+/* Селектор для класса important */
+.important {
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Стили для ссылки с классом example-link */
+a.example-link {
+    color: #17a2b8;
+    text-decoration: none;
+}
+
+a.example-link:hover {
+    text-decoration: underline;
+}
+
+/* Стили для тега footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Стили для изображения */
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+}
+
+/* Селектор по классу */
+.img-demo {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Селектор по id */
+#image-example {
+    border-color: #007bff;
+    padding: 10px;
+    background-color: #f8f9fa;
 }
