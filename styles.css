@@ -4,28 +4,33 @@ body {
     background-color: #f0f0f0;
     color: #333;
     margin: 0;
-    padding: 0;
+    padding: 40px; /* Отступы по всему телу страницы */
 }
 
 /* Селектор по тегу: стили для заголовков h1 и h2 */
 h1 {
     color: #007bff;
     text-align: center;
+    margin-bottom: 20px; /* Отступ снизу */
 }
 
 h2 {
     color: #343a40;
+    margin-top: 20px; /* Отступ сверху */
+    margin-bottom: 10px; /* Отступ снизу */
 }
 
 /* Селектор по классу */
 .text {
     color: #6c757d;
+    margin-bottom: 15px; /* Отступ снизу */
 }
 
 /* Селектор по id */
 #special-text {
     color: #dc3545;
     font-style: italic;
+    margin-bottom: 15px; /* Отступ снизу */
 }
 
 /* Селектор для класса important */
@@ -50,12 +55,13 @@ footer {
     color: #fff;
     padding: 10px;
     text-align: center;
+    margin-top: 20px; /* Отступ сверху */
 }
 
 /* Стили для изображения */
 img {
     display: block;
-    margin: 20px auto;
+    margin: 20px auto; /* Центрирование изображения */
     max-width: 100%;
     height: auto;
     border: 2px solid #ccc;
