@@ -131,3 +131,39 @@ a:hover {
     color: #00ff00; /* Зеленый при наведении */
     text-decoration: underline;
 }
+.resources li {
+    font-size: 1.5em;
+    margin-bottom: 7px;
+    color: #207EBF;
+    padding-left: 20px;
+    position: relative;
+}
+
+.resources a {
+    padding-right: 25px;
+}
+
+.resources a[href*='://'] {
+    background: url(images/globe.png) no-repeat right center;
+    background-size: 16px 16px; /* Размер значка */
+}
+
+.resources a[href$='.pdf'] {
+    background: url(images/acrobat.png) no-repeat right center;
+    background-size: 16px 16px;
+}
+
+.resources a[href$='.zip'] {
+    background: url(images/zip.png) no-repeat right center;
+    background-size: 16px 16px;
+}
+
+.resources a[href*='doc'] {
+    background: url(images/word.png) no-repeat right center;
+    background-size: 16px 16px;
+}
+
+.resources a:hover {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.8);
+}
